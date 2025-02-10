@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Classification</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+   <div class="image-container">
+
+		<a href="D:\WEB\weather\about.html" class="about-us-button">About Us</a>
+		<img src="/static/weather/summer.jpeg" alt="Image 1">
+		<img src="/static/weather/cloudy.jpeg" alt="Image 2">
+		<img src="/static/weather/shine.jpeg" alt="Image 3">
+		<img src="/static/weather/rain.jpeg" alt="Image 4">
+		<img src="/static/weather/foggy.jpeg" alt="Image 5">
+		<div class="form-container">
+			<h2 class="form-title">FIND YOUR WEATHER</h2>
+   
+
+    <div id="predictionResult">
+        {% if result %}
+            <h3>Prediction Result: It is {{ result }}</h3>
+        {% endif %}
+    </div>
+
+    <script>
+        function selectImage() {
+            document.getElementById("imageInput").click();
+        }
+    </script>
+</body>
+</html>

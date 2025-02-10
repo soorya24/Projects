@@ -1,0 +1,76 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+.about-us-button {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: none;
+	color: #0a3365;
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	border-radius: 8px;
+	font-weight: bold; /* Set the font weight to bold */
+	border-radius: 4px;
+	opacity: 10;
+	text-decoration: none;
+	font-family: "Times New Roman", serif;
+}
+.about-us-button:hover{
+	color:#227793;
+}
+
+.image-container {
+	display: flex;
+	height:100%;
+}
+
+    .image-container img {
+		flex: 1;
+		width: 20%; /* Adjust the width based on the number of images */
+		object-fit: cover;
+		object-position: center;
+		opacity:0.6;
+	}
+.form-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #f1f1f1;
+	padding: 20px;
+	opacity:0.8;
+}
+
+/* Additional styling for form elements */
+
+
+.button {
+	background-color: #afd4ea;
+	color: #000000;
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+	.button:hover {
+		background-color: #6cbeb6;
+	}
+
+.hidden-input {
+	display: none;
+}
+.form-title {
+	font-family: 'Pacifico', cursive; /* Custom font for the form title */
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #000000;
+}
